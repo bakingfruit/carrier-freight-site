@@ -1,0 +1,106 @@
+/* General */
+
+:root {
+    --backgroundColor: rgba(237, 238, 194, 0.8);
+    --primaryColor: rgb(221, 197, 118, .6);
+    --dark: #333333;
+}
+
+/* Site Body */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--backgroundColor);
+}
+
+/* Login Box */
+.login-area i {
+    padding-bottom: 40px;
+    padding-left: 93px;
+    transform: translate(-50 -50);
+    color: var(--dark);
+}
+.login-area {
+    width: 320px;
+    height: 420px;
+    background: var(--primaryColor);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+    border-radius: 0px;
+}
+
+h1 {
+   margin: 0;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 30px;
+   color: var(--dark);
+}
+
+
+.login-area p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: var(--dark);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-area input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-area input[type="text"], input[type="password"]
+    {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+    }
+
+    .login-area input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        background: var(--dark);
+        color: #fff;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .login-box input[type="submit"]:hover {
+        cursor: pointer;
+        background: #fff;
+        color: var(--dark);
+    }
+
+    loginbox a{
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: var(--dark);
+    }
+/* Under Login Credentials Prompt */
+
+.no-account {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Miscellaneous */
+
+a { color: black; } 
+
+a:visited { text-decoration: none; color: none; }
+a:hover { text-decoration: none; color: none; }
+a:focus { text-decoration: none; color: none; }
+a:hover, a:active { text-decoration: none; color:none; }
